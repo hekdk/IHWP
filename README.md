@@ -73,25 +73,25 @@ flutter pub get
 
 ## ▶️ How to Run the Project
 
-- This application is designed exclusively for mobile platforms (Android and iOS).
-- It will not function correctly as a web app.
+- This application is designed exclusively for **mobile platforms** (Android and iOS).
+- It will **not function correctly as a web app**.
 
-- You can run the app on either a physical device or a virtual emulator.
+- You can run the app on either a **physical device** or a **virtual emulator**.
 
 ### 📱 1. Using a Physical Device (Recommended)
 Steps:
 
-- Enable Developer Mode on your Android or iOS device.
+- Enable **Developer Mode** on your Android or iOS device.
 
-- Enable USB Debugging (on Android) within the Developer Options menu.
+- Enable **USB Debugging** (on Android) within the Developer Options menu.
 
-- Connect your device to your computer via USB.
+- Connect your device to your computer via **USB**.
 
-- When prompted on your device, click Allow USB Debugging.
+- When prompted on your device, click **Allow USB Debugging**.
 
-- In VS Code, select your device from the bottom-right corner (where it may show “No Device”).
+- In **VS Code**, select your device from the bottom-right corner (where it may show “No Device”).
 
-- Press F5 or go to Run > Start Debugging in VS Code.
+- Press **F5** or go to **Run > Start Debugging** in VS Code.
 
 ### 💻 2. Using a Virtual Emulator 
 
