@@ -78,7 +78,7 @@ flutter pub get
 
 - You can run the app on either a physical device or a virtual emulator.
 
-###📱 1. Using a Physical Device (Recommended)
+### 📱 1. Using a Physical Device (Recommended)
 Steps:
 
 - Enable Developer Mode on your Android or iOS device.
