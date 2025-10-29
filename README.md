@@ -79,36 +79,38 @@ flutter pub get
 - You can run the app on either a physical device or a virtual emulator.
 
 ###📱 1. Using a Physical Device (Recommended)
-- Steps:
+Steps:
 
-Enable Developer Mode on your Android or iOS device.
+- Enable Developer Mode on your Android or iOS device.
 
-Enable USB Debugging (on Android) within the Developer Options menu.
+- Enable USB Debugging (on Android) within the Developer Options menu.
 
-Connect your device to your computer via USB.
+- Connect your device to your computer via USB.
 
-When prompted on your device, click Allow USB Debugging.
+- When prompted on your device, click Allow USB Debugging.
 
-In VS Code, select your device from the bottom-right corner (where it may show “No Device”).
+- In VS Code, select your device from the bottom-right corner (where it may show “No Device”).
 
-Press F5 or go to Run > Start Debugging in VS Code.
+- Press F5 or go to Run > Start Debugging in VS Code.
 
-### 💻 2. Using a Virtual Emulator Android Setup:
+### 💻 2. Using a Virtual Emulator 
 
-Open Android Studio.
+Android Setup:
 
-Go to Tools > AVD Manager and create a new virtual device.
+- Open Android Studio.
 
-iOS Setup (macOS only):
+- Go to Tools > AVD Manager and create a new virtual device.
 
-Open Xcode.
+IOS Setup (macOS only):
 
-Go to Window > Devices and Simulators and create a new simulator.
+- Open Xcode.
 
-Run the Emulator:
+- Go to Window > Devices and Simulators and create a new simulator.
 
-Launch the emulator you created.
+- Run the Emulator
 
-In VS Code, the emulator should appear in the device list automatically.
+- Launch the emulator you created.
 
-Press F5 or go to Run > Start Debugging to launch the app.
+- In VS Code, the emulator should appear in the device list automatically.
+
+- Press F5 or go to Run > Start Debugging to launch the app.
