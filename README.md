@@ -1,79 +1,114 @@
-Prakruti Health App
+# 🌿 Prakruti Health App
 
-Description
+## 🩺 Description
 
-Prakruti Health is a comprehensive Flutter-based mobile application designed to help users discover their Ayurvedic Prakruti (body constitution) and receive personalized health guidance. Based on the principles of Ayurveda, the app categorizes users into one of the three primary doshas: Vata, Pitta, or Kapha.
+**Prakruti Health** is a comprehensive **Flutter-based mobile application** designed to help users discover their Ayurvedic **Prakruti** (body constitution) and receive personalized health guidance.  
 
-The app provides a complete wellness ecosystem, starting from user authentication to daily health tracking.
+Based on the ancient principles of **Ayurveda**, the app categorizes users into one of the three primary doshas: **Vata**, **Pitta**, or **Kapha**.
 
-Key Features
+The app provides a **complete wellness ecosystem**, starting from user authentication to daily health tracking.
 
-Authentication: Secure Login and Sign Up screens. New users are guided to the questionnaire, while returning users are taken directly to their dashboard.
+---
 
-Prakruti Questionnaire: A one-time, 15-question survey that analyzes the user's physical, mental, and emotional characteristics to determine their dominant Prakruti.
+## ✨ Key Features
 
-Personalized Dashboard: A dynamic home screen that displays the user's Prakruti results, including a beautiful pie chart showing the balance of their doshas (Vata, Pitta, Kapha) and a detailed description of their constitution.
+### 🧩 1. **Authentication**
+- Secure login and sign-up screens.
+- New users are guided through a one-time questionnaire.
+- Returning users are directed straight to their personalized dashboard.
 
-Diet Plan: A dedicated "Diet" tab that provides personalized, pure-vegetarian food recommendations. It clearly lists foods to favor and foods to reduce based on the user's dosha.
+### 📜 2. **Prakruti Questionnaire**
+- A **15-question survey** that analyzes the user's physical, mental, and emotional traits.
+- Determines the user's dominant **Prakruti (dosha)**.
 
-Yoga & Exercise Tracker: An "Exercise" tab with a list of recommended yoga asanas and physical activities tailored to the user's Prakruti. It features a daily to-do list, allowing users to check off activities as they complete them.
+### 📊 3. **Personalized Dashboard**
+- Displays the user's **Prakruti** results in a visually appealing format.
+- Includes a **pie chart** showcasing the balance of doshas (**Vata**, **Pitta**, **Kapha**).
+- Offers a detailed description of the user's body constitution.
 
-Local Storage: Utilizes sqflite for robust, on-device database management, storing user data, questionnaire results, and daily exercise logs.
+### 🥗 4. **Diet Plan**
+- A dedicated **Diet** tab that provides personalized, **pure-vegetarian** food recommendations.
+- Clear lists of foods to **favor** and foods to **reduce** based on the user's dosha.
 
-State Management: Built with provider for efficient and scalable state management across the application.
+### 🧘 5. **Yoga & Exercise Tracker**
+- The **Exercise** tab features tailored **yoga asanas** and physical activities.
+- Includes a **daily to-do list** for users to check off completed activities.
 
-Screenshots
+### 💾 6. **Local Storage**
+- Utilizes **sqflite** for local database management.
+- Stores user data, questionnaire results, and daily exercise logs.
 
-For a visual walkthrough of the application, please refer to the screenshots available in the /output folder of this project.
+### ⚙️ 7. **State Management**
+- Built with **Provider** for efficient and scalable state management across the app.
 
-Installation
+---
 
-To get a local copy up and running, follow these simple steps.
+## 🖼️ Screenshots
 
-Clone the Repository:
+For a visual walkthrough of the application, check out the screenshots available in the [`/output`](./output) folder of this project.
 
+---
+
+## 🧭 Installation
+
+To set up the app locally, follow the instructions below.
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/hekdk/IHWP.git
+```
 
+### 2. Navigate to Project Directory
+```bash
+cd IHWP
+```
 
-Navigate to Project Directory:
+### 3. Install Dependencies
 
-cd ihwp
-
-
-Install Dependencies:
-Run the following command in your terminal to fetch all the necessary packages listed in pubspec.yaml:
-
+- Run the following command in your terminal to fetch all necessary packages listed in the pubspec.yaml file:
+```bash
 flutter pub get
+```
+---
 
+## ▶️ How to Run the Project
 
-How to Run the Project
+- This application is designed exclusively for mobile platforms (Android and iOS).
+- It will not function correctly as a web app.
 
-This application is designed exclusively for mobile platforms (Android and iOS) and will not function correctly as a website.
+- You can run the app on either a physical device or a virtual emulator.
 
-You can run the app using either a physical device or a virtual emulator.
+###📱 1. Using a Physical Device (Recommended)
+- Steps:
 
-1. Using a Physical Device (Recommended)
+Enable Developer Mode on your Android or iOS device.
 
-Enable Developer Mode: On your Android or iOS device, enable Developer Options.
+Enable USB Debugging (on Android) within the Developer Options menu.
 
-Enable USB Debugging: On Android, find and enable "USB Debugging" within Developer Options.
+Connect your device to your computer via USB.
 
-Connect Your Device: Plug your device into your computer via USB. A prompt may appear on your device to "Allow USB Debugging." Accept it.
+When prompted on your device, click Allow USB Debugging.
 
-Select Device in VS Code: In the bottom-right corner of VS Code, click on the device name (it might say "No Device") and select your connected phone.
+In VS Code, select your device from the bottom-right corner (where it may show “No Device”).
 
-Run the App: Press F5 or use the Run > Start Debugging menu in VS Code.
+Press F5 or go to Run > Start Debugging in VS Code.
 
-2. Using a Virtual Emulator
+### 💻 2. Using a Virtual Emulator Android Setup:
 
-Set Up an Emulator:
+Open Android Studio.
 
-For Android: Open Android Studio, go to Tools > AVD Manager, and create a new virtual device.
+Go to Tools > AVD Manager and create a new virtual device.
 
-For iOS: (macOS only) Open Xcode, go to Window > Devices and Simulators, and create a new simulator.
+iOS Setup (macOS only):
 
-Launch the Emulator: Start the virtual device you created.
+Open Xcode.
 
-Select Emulator in VS Code: The running emulator should automatically appear in VS Code's device list.
+Go to Window > Devices and Simulators and create a new simulator.
 
-Run the App: Press F5 or use the Run > Start Debugging menu in VS Code.
+Run the Emulator:
+
+Launch the emulator you created.
+
+In VS Code, the emulator should appear in the device list automatically.
+
+Press F5 or go to Run > Start Debugging to launch the app.
