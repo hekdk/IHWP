@@ -95,22 +95,22 @@ Steps:
 
 ### 💻 2. Using a Virtual Emulator 
 
-Android Setup:
+**Android Setup**:
 
-- Open Android Studio.
+- Open **Android Studio**.
 
-- Go to Tools > AVD Manager and create a new virtual device.
+- Go to **Tools > AVD Manager** and create a new virtual device.
 
-IOS Setup (macOS only):
+**IOS Setup (macOS only)**:
 
-- Open Xcode.
+- Open **Xcode**.
 
-- Go to Window > Devices and Simulators and create a new simulator.
+- Go to **Window > Devices and Simulators** and create a new simulator.
 
-- Run the Emulator
+- **Run the Emulator**
 
-- Launch the emulator you created.
+- Launch the emulator you **created**.
 
-- In VS Code, the emulator should appear in the device list automatically.
+- In **VS Code**, the emulator should appear in the device list automatically.
 
-- Press F5 or go to Run > Start Debugging to launch the app.
+- Press **F5** or go to **Run > Start Debugging** to launch the app.
